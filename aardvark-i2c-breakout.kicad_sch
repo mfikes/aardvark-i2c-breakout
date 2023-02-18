@@ -2,7 +2,13 @@
 
   (uuid dd35b9f1-2797-46a7-a3ff-4e2c1be5fc91)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "Aardvark I2C Breakout")
+    (date "2023-02-18")
+    (rev "1.0")
+  )
 
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x03" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
@@ -282,7 +288,7 @@
     (pin "2" (uuid fffae8e7-c28e-42e8-a529-1a64845bd879))
     (pin "3" (uuid 72d4eb14-78ba-40bf-87d0-89dc7c250549))
     (instances
-      (project "AardvarkBreakout"
+      (project "aardvark-i2c-breakout"
         (path "/dd35b9f1-2797-46a7-a3ff-4e2c1be5fc91"
           (reference "J2") (unit 1)
         )
@@ -316,7 +322,7 @@
     (pin "8" (uuid efe50840-72a1-4839-a28c-9359f5ca4053))
     (pin "9" (uuid 7d5156de-d70c-4920-b33f-e8b1d6361b66))
     (instances
-      (project "AardvarkBreakout"
+      (project "aardvark-i2c-breakout"
         (path "/dd35b9f1-2797-46a7-a3ff-4e2c1be5fc91"
           (reference "J1") (unit 1)
         )
